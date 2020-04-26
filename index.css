@@ -1,0 +1,138 @@
+body {
+    font-display: justify;
+    font-family: 'Courier New', Courier, monospace;
+    color: steelblue;
+}
+
+header {
+    display: grid;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navbar {
+    display: grid;
+    grid-row: span;
+    grid-column: span;
+    float: right;
+    background-color: whitesmoke;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#navbar ul li {
+    display: grid;
+    grid: 12px;
+    float: right;
+    marker-end: inherit;
+    font-size: 14;
+    max-width: 100px;
+    max-height: 30px;
+}
+
+#navbar ul li a {
+    display: grid;
+    grid: 12px;
+    float: right;
+    font-size: 14;
+    padding-right: 50px;
+}
+
+.image-alignment {
+    position: relative;
+    margin: auto;
+    padding: 10px 25px 5px 10px;
+    display: block;
+    margin-top: 5%;
+    width: 280px;
+    height: 98px;
+}
+
+.container {
+    margin-right: 180px;
+    padding: 15px 10px 12px 10px;
+}
+
+.searchbox {
+    position: relative;
+    margin: auto;
+    display: flex;
+    margin-top: 2%;
+    padding: auto;
+    width: 250px;
+    height: 40px;
+}
+
+.search-icon {
+    margin: 20px 92px 20px 12px;
+    position: relative;
+    display: block;
+    padding: 20px 15px 22px 15px;
+    margin-top: -20px;
+}
+
+.font {
+    font-family: arial, monospace, helvetica;
+}
+
+.search1 {
+    width: 20px;
+    height: 20px;
+}
+
+.bar {
+    border-radius: 25px;
+    position: relative;
+    display: solid;
+    border-color: black;
+    margin-top: -22%;
+    font-size: 12px;
+    font-family: new romans time, arial, monospace;
+    text-align: center;
+    width: 540px;
+    height: 45px;
+}
+
+.search2 {
+    width: 13.94px;
+    height: 20px;
+    float: inline-end;
+}
+
+.btn {
+    position: relative;
+    width: auto;
+    height: 24px;
+    border-radius: 2px;
+    margin-top: 25px;
+    margin-left: 99px;
+    background-color: white;
+    border-color: black;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    text-align: center;
+    font-style: italic;
+}
+
+.bottomleft {
+    display: block;
+    float: left;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    margin-top: 136px;
+}
+
+.bottomright {
+    float: right;
+    display: grid;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    margin-top: 136px;
+}
