@@ -1,7 +1,7 @@
 body {
     font-display: justify;
     font-family: 'Courier New', Courier, monospace;
-    color: steelblue;
+    background-color: blueviolet;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
     grid-row: span;
     grid-column: span;
     float: right;
-    background-color: whitesmoke;
+    background-color: purple;
     font-size: 13px;
     font-weight: bold;
 }
@@ -23,7 +23,7 @@ header {
     display: grid;
     grid: 12px;
     float: right;
-    marker-end: inherit;
+    marker: url(chrome://apps/);
     font-size: 14;
     max-width: 100px;
     max-height: 30px;
@@ -49,7 +49,7 @@ header {
 
 .container {
     margin-right: 180px;
-    padding: 15px 10px 12px 10px;
+    padding: 15px 100px 12px 10px;
 }
 
 .searchbox {
@@ -74,38 +74,29 @@ header {
     font-family: arial, monospace, helvetica;
 }
 
-.search1 {
-    width: 20px;
-    height: 20px;
-}
-
 .bar {
     border-radius: 25px;
     position: relative;
     display: solid;
     border-color: black;
+    background-color: purple;
     margin-top: -22%;
-    font-size: 12px;
+    font-size: 14px;
     font-family: new romans time, arial, monospace;
     text-align: center;
     width: 540px;
     height: 45px;
 }
 
-.search2 {
-    width: 13.94px;
-    height: 20px;
-    float: inline-end;
-}
-
 .btn {
     position: relative;
-    width: auto;
+    width: 105px;
     height: 24px;
-    border-radius: 2px;
+    border-radius: 10px;
     margin-top: 25px;
     margin-left: 99px;
-    background-color: white;
+    margin-right: 55px;
+    background-color: purple;
     border-color: black;
     text-align: center;
 }
